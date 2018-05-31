@@ -96,7 +96,6 @@ article:hover {
     }
 
 footer{
-    background-image: url("img/oranges.jpg");
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
@@ -106,6 +105,8 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 100px;
+    color: black;
     }
 
 
