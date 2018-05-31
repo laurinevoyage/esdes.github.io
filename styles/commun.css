@@ -1,0 +1,38 @@
+html,body{
+    margin:0;
+}
+
+header{
+    background-color: darkgoldenrod;
+    padding: 10px;
+}
+button{
+    border:none;
+    color: white;
+    padding: 12px 32px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: transparent;
+
+}
+
+
+/** RESPONSIVE **/
+/*MOBILE*/
+@media screen and (max-width:600px) {
+    section{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    article{
+        width: 80%;
+    }
+}
+
+/*TABLET*/
+@media screen and (max-width:900px) and (min-width:600px) {
+    article{
+        width: 37%;
+    }
+}
