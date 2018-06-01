@@ -95,6 +95,14 @@ article:hover {
     background-image: url("img/city 6.jpg");
     }
 
+
+#intro article{
+    color: white;
+    background-color: blueviolet;
+    
+    
+}
+
 footer{
     height: 100%;
     width: 100%;
@@ -142,5 +150,7 @@ footer{
        opacity: 1;
        transform: rotateY(0);
 }
+
+
    
 }
